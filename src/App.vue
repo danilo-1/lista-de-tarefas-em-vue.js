@@ -1,7 +1,7 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div class="p-3">
+    <img src="@/assets/LogoProject.svg" class="img-figure-img img-fluid rounded" alt="">
+   
   </div>
   <router-view/>
 </template>
@@ -13,6 +13,9 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background: rgb(2,0,36);
+  background: linear-gradient(25deg, rgba(2,0,36,1) 0%, rgba(9,22,121,1) 35%, rgba(0,212,255,1) 100%);
+  min-height: 100vh;
 }
 
 #nav {
