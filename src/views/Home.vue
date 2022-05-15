@@ -1,6 +1,5 @@
 <template>
   <lista-tarefa />
-<div>testando mudanças</div>
 </template>
 
 <script>
